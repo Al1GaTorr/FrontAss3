@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>My first webpage</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body><h1>Qazybai Ali</h1>
-        <h2>2 year student at AITU Software Engineering</h2>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My first webpage</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.jpeg">
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="main-heading">Qazybai Ali</h1>
+        <h2 class="highlight">2 year student at AITU Software Engineering</h2>
+    </div>
+    <div id="main">
         <h3>About Me</h3>
-        <p>I am 2 year student at AITU from Karaganda. Graduated in 2024 from Nurmaqov School. Ru: Argyn Orta Juz </p>
+        <p class="highlight">I am 2 year student at AITU from Karaganda. Graduated in 2024 from Nurmaqov School. Ru:
+            Argyn Orta Juz </p>
         <h2>My hobbies</h2>
-        <ol>
+        <ol id="list">
             <li>Boxing</li>
             <li>Car Driving</li>
             <li>Cooking</li>
             <li>solving tasks/coding</li>
         </ol>
         <h2>My favorite websites:</h2>
-        <ul>
+        <ul id="list">
             <li><a href="www.w3schools.com">W3schools</a></li>
             <li><a href="https://roadmap.sh/">Roadmaps</a></li>
             <li><a href="https://chatgpt.com/">ChatGPT</a></li>
         </ul>
-        <h3>My photo</h3>
-        <img src="photo_for_assignment.jpg" alt = "my photo" width="600" height="600"><br>
-        <button>Click me</button><br>
-        <table border="1">Table
-            <tr>
-                <th>Subject</th>
-                <th>Day</th>
-                <th>Time</th>
-            </tr>
-            <tr><td>WEB1(Frontend)</td>
-                <td>Monday</td>
-                <td>14:00 - 15:00</td>
-            </tr>
-            <tr><td>WEB2(Backend)</td>
-                <td>Tuesday</td>
-                <td>16:00-18:00</td></tr>
-            <tr><td>Software Design Patterns</td>
-                <td>Wednesday</td>
-                <td>17:00-18:00</td></tr>
-        </table>
-        <p>My mood today:</p>
-        <p>Morning:&#128554</p>
-        <p>Afternoon:&#128513</p>
-        <p>Evening:&#128523</p>
-        </p>
-        <form>
-            <label for="name">Name</label> 
-            <input type="text" id="name" name="name"> </br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email"></br>
-            <label for="favColor">Favorite Color</label>
-            <input type="color" id="favColor"name="favColor"></br>
-            <input type="button" value="Submit">
-        </form>
-        <script src="" async defer></script>
-    </body>
-</html>
+    </div>
+    <h3>My photo</h3>
+    <img src="photo_for_assignment.jpg" alt="my photo" width="300" height="300"><br>
+    <button>Click me</button><br>
+    <table border="1">Table
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+
+        <tr>
+            <td>WEB1(Frontend)</td>
+            <td>Monday</td>
+            <td>14:00 - 15:00</td>
+        </tr>
+        <tr>
+            <td>WEB2(Backend)</td>
+            <td>Tuesday</td>
+            <td>16:00-18:00</td>
+        </tr>
+        <tr>
+            <td>Software Design Patterns</td>
+            <td>Wednesday</td>
+            <td>17:00-18:00</td>
+        </tr>
+    </table>
+    <table border="1" width="50%" height="200">
+        <tr>
+            <td width="25%" valign="top">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Schedule</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </td>
+            <td valign="top">
+                <h2>Main Content</h2>
+                <p>My WebSite</p>
+                <p>Main Area which contains main text.</p>
+            </td>
+        </tr>
+    </table>
+    <p>My mood today:</p>
+    <p>Morning:&#128554</p>
+    <p>Afternoon:&#128513</p>
+    <p>Evening:&#128523</p>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"> </br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"></br>
+        <label for="favColor">Favorite Color</label>
+        <input type="color" id="favColor" name="favColor"></br>
+        <input type="button" value="Submit">
+    </form>
+    <script src="" async defer></script>
+    <div id="footer">
+        This is footer
+    </div>
+    <div class="box static-box">Static box</div>
+    <div class="box relative-box">Relative box</div>
+    <div class="box absolute-box">Absolute box</div>
+
+    <div class="left-box">Left Box</div>
+    <div class="right-box">Right Box</div>
+    <div class="clear-box">This clears the floats</div>
+</body>
+
+</html>git 
