@@ -1,107 +1,115 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My first webpage</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Assignment</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.jpeg">
 </head>
-
 <body>
-    <div id="header">
-        <h1 id="main-heading">Qazybai Ali</h1>
-        <h2 class="highlight">2 year student at AITU Software Engineering</h2>
-    </div>
-    <div id="main">
-        <h3>About Me</h3>
-        <p class="highlight">I am 2 year student at AITU from Karaganda. Graduated in 2024 from Nurmaqov School. Ru:
-            Argyn Orta Juz </p>
-        <h2>My hobbies</h2>
-        <ol id="list">
-            <li>Boxing</li>
-            <li>Car Driving</li>
-            <li>Cooking</li>
-            <li>solving tasks/coding</li>
-        </ol>
-        <h2>My favorite websites:</h2>
-        <ul id="list">
-            <li><a href="www.w3schools.com">W3schools</a></li>
-            <li><a href="https://roadmap.sh/">Roadmaps</a></li>
-            <li><a href="https://chatgpt.com/">ChatGPT</a></li>
-        </ul>
-    </div>
-    <h3>My photo</h3>
-    <img src="photo_for_assignment.jpg" alt="my photo" width="300" height="300"><br>
-    <button>Click me</button><br>
-    <table border="1">Table
-        <tr>
-            <th>Subject</th>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
 
-        <tr>
-            <td>WEB1(Frontend)</td>
-            <td>Monday</td>
-            <td>14:00 - 15:00</td>
-        </tr>
-        <tr>
-            <td>WEB2(Backend)</td>
-            <td>Tuesday</td>
-            <td>16:00-18:00</td>
-        </tr>
-        <tr>
-            <td>Software Design Patterns</td>
-            <td>Wednesday</td>
-            <td>17:00-18:00</td>
-        </tr>
-    </table>
-    <table border="1" width="50%" height="200">
-        <tr>
-            <td width="25%" valign="top">
-                <h3>Menu</h3>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Schedule</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </td>
-            <td valign="top">
-                <h2>Main Content</h2>
-                <p>My WebSite</p>
-                <p>Main Area which contains main text.</p>
-            </td>
-        </tr>
-    </table>
-    <p>My mood today:</p>
-    <p>Morning:&#128554</p>
-    <p>Afternoon:&#128513</p>
-    <p>Evening:&#128523</p>
-    <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name"> </br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"></br>
-        <label for="favColor">Favorite Color</label>
-        <input type="color" id="favColor" name="favColor"></br>
-        <input type="button" value="Submit">
-    </form>
-    <script src="" async defer></script>
-    <div id="footer">
-        This is footer
-    </div>
-    <div class="box static-box">Static box</div>
-    <div class="box relative-box">Relative box</div>
-    <div class="box absolute-box">Absolute box</div>
+<!-- Part 1: Flexbox -->
 
-    <div class="left-box">Left Box</div>
-    <div class="right-box">Right Box</div>
-    <div class="clear-box">This clears the floats</div>
+<!-- Task 0: Navigation Bar -->
+<header class="header">
+    <div class="logo">
+        <img src="logo.png" alt="MyLogo">
+    </div>
+    <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- Task 1: Card Row -->
+<section class="card-row">
+    <div class="card">
+        <img src="supra.jpg" alt="supra">
+        <h3>Supra card 1</h3>
+        <p>Toyota Supra MK4 for card 1</p>
+        <button>Learn More</button>
+    </div>
+    <div class="card">
+        <img src="supra.jpg" alt="supra">
+        <h3>Supra card 2</h3>
+        <p>Toyota Supra MK4 for card 2</p>
+        <button>Learn More</button>
+    </div>
+    <div class="card">
+        <img src="supra.jpg" alt="supra">
+        <h3>Supra card 3</h3>
+        <p>Toyota Supra MK4 for card 3</p>
+        <button>Learn More</button>
+    </div>
+</section>
+
+<!-- Part 2: Grid System -->
+
+<!-- Task 2: Page Layout with Grid Areas -->
+<div class="grid-layout">
+    <header class="grid-header">Header</header>
+    <aside class="grid-sidebar">Sidebar</aside>
+    <main class="grid-main">Main Content</main>
+    <footer class="grid-footer">Footer</footer>
+</div>
+
+<!-- Task 3: Image Gallery -->
+<section class="image-gallery">
+    <div class="gallery-item"><img src="gr.jpeg" alt="Toyota GR86"></div>
+    <div class="gallery-item"><img src="350z.jpeg" alt="Nissan 350z"></div>
+    <div class="gallery-item"><img src="celica.jpeg" alt="Toyota Celica"></div>
+    <div class="gallery-item"><img src="silvia.jpeg" alt="Nissan Silvia"></div>
+    <div class="gallery-item"><img src="skyline.jpeg" alt="Nissan Skyline r34"></div>
+    <div class="gallery-item"><img src="supra1.jpeg" alt="Toyota Supra"></div>
+    <div class="gallery-item"><img src="rx7.jpeg" alt="Mazda RX7"></div>
+    <div class="gallery-item"><img src="supra.jpg" alt="Toyota Supra"></div>
+    <div class="gallery-item"><img src="r35.jpeg" alt="Nissan GTR R35"></div>
+</section>
+
+<!-- Part 3: Combining Flexbox & Grid -->
+
+<!-- Task 4: Portfolio Page -->
+<div class="portfolio">
+    <header class="portfolio-header">
+        <div class="logo">Portfolio</div>
+        <nav class="portfolio-nav">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="portfolio-main">
+        <section class="projects">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+                <button>View</button>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+                <button>View</button>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of project 3.</p>
+                <button>View</button>
+            </div>
+        </section>
+
+        <aside class="portfolio-sidebar">
+            <h3>About Me</h3>
+            <p>I am 2 year student at AITU from Karaganda. Graduated in 2024 from Nurmaqov School. Ru: Argyn Orta Juz.</p>
+        </aside>
+    </main>
+
+    <footer class="portfolio-footer">
+        &copy; 2025 Ali Qazybai    </footer>
+</div>
+
 </body>
-
-</html>git 
+</html>
